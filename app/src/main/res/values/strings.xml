@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Secret Diary</string>
+    <string name="about_o">Md.Ramim Hossain\nEmail:ramimhossain6242@gmail.com</string>
+    <string name="button_Text">Exit</string>
+    <string name="title_Text">Alert title</string>
+    <string name="message_Text">Do you want to exit ?</string>
+    <string name="about_t">Studying in Computer Science and Engineering at Daffodil International University. Passionate about android  and ios app development. Love to build android and ios application.</string>
+</resources>
