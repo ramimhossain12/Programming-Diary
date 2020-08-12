@@ -27,8 +27,7 @@ import java.io.InputStreamReader;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
    //    Button
     private EditText editText;
-    private Button savebutton ;
-    private Button exitButton;
+    private Button savebutton,exitButton;
     private android.app.AlertDialog.Builder alertDialogBuilder;
 
 
@@ -64,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
                 }else{
-                    Toast.makeText(getApplicationContext(),"Please enter some data",Toast.LENGTH_SHORT);
+                    Toast.makeText(getApplicationContext(),"Please enter some data",Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -131,7 +130,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             try {
                 fileOutputStream.write(text.getBytes());
                 fileOutputStream.close();
-                Toast.makeText(getApplicationContext(),"  datais saved ",Toast.LENGTH_SHORT);
+                Toast.makeText(getApplicationContext(),"  Note saved ",Toast.LENGTH_SHORT).show();
 
             } catch (IOException e) {
                 e.printStackTrace();
